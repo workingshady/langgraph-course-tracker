@@ -1,0 +1,15 @@
+# Core runtime (adjust as you confirm exact versions in the course)
+langgraph
+langchain
+langchain-core
+langchain-community
+langsmith
+openai
+tiktoken
+
+# Utilities
+python-dotenv
+httpx
+requests
+
+
