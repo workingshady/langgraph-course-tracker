@@ -1,0 +1,24 @@
+[project]
+name = "introduction-to-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph",
+    "langgraph-prebuilt",
+    "langgraph-sdk",
+    "langgraph-checkpoint-sqlite",
+    "langsmith",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "notebook",
+    "langchain-tavily",
+    "wikipedia",
+    "trustcall",
+    "langgraph-cli[inmem]",
+    "langchain-google-genai>=3.2.0",
+    "python-dotenv>=1.2.1",
+    "langchain-anthropic>=1.2.0",
+]
